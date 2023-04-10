@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UpdateLaunch</string>
+    <string name="target_package_name">com.example.smartmirrorhealthcare</string>
+    <string name="download_url">"https://kr.object.ncloudstorage.com/face-health-releases/%s/app-debug.apk"</string>
+    <string name="install_command">su root pm install -r /sdcard/Download/app-debug.apk</string>
+    <string name="app_open_command">su root am start -n com.example.smartmirrorhealthcare/com.example.smartmirrorhealthcare.ui.activites.MainActivity</string>
+</resources>
