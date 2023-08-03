@@ -23,11 +23,12 @@
         </activity>
 
         <receiver
-            android:name="com.deepmedi.launcher.BootCompletedReceiver"
+            android:name="com.deepmedi.launcher.UpdaterReceiver"
             android:enabled="true"
             android:exported="false">
             <intent-filter android:priority="100">
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
             </intent-filter>
         </receiver>
     </application>

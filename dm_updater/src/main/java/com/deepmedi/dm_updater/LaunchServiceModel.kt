@@ -5,7 +5,6 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class LaunchServiceModel(
-    val executionPath: String,
     val packageName: String,
     val bucketName: String,
     val currentVersion: String,
